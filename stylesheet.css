@@ -1,0 +1,379 @@
+/* FONTS */
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kumbh-sans{
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+}
+
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* BODY */
+body{
+    background-size: contain;
+    background-color: #000000;
+    background-image: url(images/bodybg.jpg);
+    /* IMAGE FROM: https://unsplash.com/photos/a-black-and-white-photo-of-a-dark-background-cGNCepznaV8 */
+    background-size: contain;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin: -25px;
+    background-color: #000000;
+}
+
+h1{
+    display: inline;
+    color: #8e965d;
+    font-family: "Rubik Dirt";
+    font-weight: 100;
+    font-size: 210%;
+}
+
+.bandbox{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 1rem;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    font-family: "Passion One", sans-serif;
+    font-size: 125%;
+}
+
+nav a:link, :visited{
+    text-decoration: none;
+    display: block;
+    padding: 2px 5px;
+    color: #e3e0d9;    
+}
+
+nav a:hover{
+    color: #bea358;
+}
+
+/* CONTAINERs */
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    background: #73775b;
+    background-image: url(images/banner.jpg);
+    /* IMAGE FROM: https://unsplash.com/photos/brown-and-black-butterflies-on-green-leaves-1P_rsdwdx0c */
+    background-size: cover
+}
+
+.container2{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: 100px;
+    margin-bottom: 125px;
+    background-color: #73775b;
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 25px;
+}
+
+.container4{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: 100px;
+    margin-bottom: 125px;
+    background-color: #8e7c55;
+    background-image: url(images/container4bg.jpg);
+    /* IMAGE FROM: https://unsplash.com/photos/a-man-walking-down-a-street-next-to-a-brick-wall-BmIH1Ka3L0I */
+    background-size: cover;
+}
+
+.shopcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 25px;
+}
+
+/* BOXES */
+.infobox{
+    flex: 1;
+    padding: 25px;
+    margin: 15px;
+    background-color: #e3e0d9;
+}
+
+.sidebox{
+    padding: 25px;
+    margin: 15px;
+    background-color: #e3e0d9;
+}
+
+.productbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.videobox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 15px;
+    background-color: #e3e0d9;
+}
+
+#titlebox{
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    margin-top: -50px;
+}
+
+.formbox{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 25px;
+    background-color: #e3e0d9;
+}
+
+.buttonbox{
+    padding: 5px;
+}
+
+#streambox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+#albumcover{
+    margin-top: 15px;
+}
+
+#concert{
+    margin-top: 15px;
+}
+
+/* BUTTONS */
+#listenbutton, #shopbutton{
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #000000;
+    color: #e3e0d9;
+    font-family: "Passion One", sans-serif;
+    font-size: 125%;
+}
+
+#listenbutton:hover{
+    background-color: #260e0c;
+    color: #e3e0d9;
+}
+
+#shopbutton:hover{
+    background-color: #260e0c;
+    color: #ffffff;
+}
+
+.addtocart, #submitbutton{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Passion One", sans-serif;
+    font-weight: 200;
+    font-size: 110%;
+}
+
+.addtocart:active, #submitbutton:active{
+    background-color: #bea358;
+    color: #000000;
+}
+
+/* TEXT */
+.signup{
+    margin-bottom: 10px;
+}
+
+#submit{
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 225%;
+    font-weight: 900;
+    margin-bottom: 0px;
+    color: #e3e0d9;
+}
+
+#subtext{
+    margin-top: 10px;
+    font-size: 135%;
+    font-weight: 350;
+    text-align: center;
+    color: #e3e0d9;
+}
+
+#text a:visited, text a:link{
+    text-decoration: none;
+    color: #7c3a34;
+}
+
+h3, h4{
+    font-size: 150%;
+    font-weight: 800;
+}
+
+h5{
+    font-size: 155%;
+    font-weight: 800;
+    text-align: center;
+}
+
+em{
+    color: #7c3a34;
+}
+
+.product{
+    font-size: 160%;
+    font-weight: 500;
+    color: #e3e0d9;
+}
+
+.price{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-size: 130%;
+    color: #73775b;
+}
+
+#producttitle{
+    color: #e3e0d9;
+    font-weight: 300;
+}
+
+ul li{
+    margin-left: -40px;
+}
+
+.event{
+    font-size: 120%;
+    font-weight: 700;
+}
+
+/* ICONS */
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: -25px;
+    background-color: #73775b;
+    background-image: url(images/footerbg.jpg);
+    /* IMAGE FROM: https://unsplash.com/photos/a-black-and-white-painting-of-a-forest-jlMydy1l5dw */
+    background-size: cover;
+    color: #000000;
+    font-weight: 450;
+}
+
+footer a:link, footer a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover{
+    color: #e3e0d9;
+}
+
+/* RETURN TO TOP BUTTON */
+#returntotop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
